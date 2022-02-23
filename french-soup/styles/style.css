@@ -1,9 +1,76 @@
 /*Some necessary adjustments*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
 h1, body, html, main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: 'Nunito';
+  font-size: 16px;
+  color: rgb(141, 141, 141);
 }
+
+.header{
+  background-image: url("../images/soup.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  color: white;
+  vertical-align: center;
+}
+
+p {
+  align-content: center;
+  text-align: justify;
+
+}
+
+picture {
+  display: block;
+  text-align: center;
+}
+
+picture img {
+  max-width: 100%;
+  height: auto;
+  padding: 20px 0;
+}
+
+article {
+  width: 80%;
+  margin: auto;
+
+}
+
+.smallimage {
+  align-items: center;
+  height: 60px;
+}
+
+#ingredients {
+  border-bottom: solid 3px grey;
+}
+
+#recipe {
+  border-bottom: solid 3px grey;
+  margin-top: 100px;
+}
+
+#directions {
+  padding: 0 0 40px 0;
+}
+
+li {
+  list-style: none;
+}
+
